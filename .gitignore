@@ -1,0 +1,24 @@
+# CMake Stuff
+CMakeFiles
+cmake_install.cmake
+CMakeCache.txt
+compile_commands.json
+install_manifest.txt
+
+# Editor Stuff
+.clangd
+
+# Build Artifacts
+bin
+
+# Linux Build
+Makefile
+
+# Windows Build
+
+# Valgrind stuff
+callgrind.out
+callgrind.out.*
+
+cachegrind.out
+cachegrind.out.*
