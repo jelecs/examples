@@ -7,13 +7,12 @@ add_executable(${PROJECT_NAME}
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
-  ${CMAKE_CURRENT_LIST_DIR}/../../include
-  ${CMAKE_CURRENT_LIST_DIR}/src
+  /usr/local/include
   /usr/include/SDL2
 )
 
 target_link_directories(${PROJECT_NAME} PUBLIC
-  ${CMAKE_CURRENT_LIST_DIR}/../../lib
+  /usr/local/lib
 )
 
 target_link_libraries(${PROJECT_NAME} jel SDL2)
